@@ -1,0 +1,15 @@
+.repo-list-container {
+    padding: 20px;
+}
+
+.repo-list-container h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.repo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
